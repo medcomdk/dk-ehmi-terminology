@@ -76,7 +76,12 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+#  Terminology: terminology.html
   Artifacts: artifacts.html
+#  Profiles: profiles.html
+#  Downloads: downloads.html
+#  Extensions: extensions.html
+#  xhtml-fragments: xhtml-fragments.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
