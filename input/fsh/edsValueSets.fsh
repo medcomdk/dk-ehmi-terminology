@@ -17,7 +17,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS)Types"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-* include codes from system EhmiDeliveryStatusTypes
+//* include codes from system EhmiDeliveryStatusTypes
 * include codes from system $AuditEventTypes
 * include codes from system http://hl7.org/fhir/restful-interaction
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
