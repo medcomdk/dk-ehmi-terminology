@@ -34,7 +34,7 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * #msg-created "A new message has been created"
 * #msg-sent "A new message has been sent"
 * #msg-received "A new message has been received"
-* #msg-finalized "A message has reached its final reciever"
+* #msg-finalized "A message has reached its final receiver"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
 Id: ehmi-delivery-status-sub-types-valueset
