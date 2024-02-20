@@ -33,7 +33,7 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^caseSensitive = true
 * #msg-created "A new message has been created"
 * #msg-sent "A new message has been sent"
-* #msg-received "A new message has been recieved"
+* #msg-received "A new message has been received"
 * #msg-finalized "A message has reached its final reciever"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
