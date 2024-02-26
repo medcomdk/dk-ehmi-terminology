@@ -31,10 +31,10 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #msg-created "A new message has been created"
-* #msg-sent "A new message has been sent"
-* #msg-received "A new message has been received"
-* #msg-finalized "A message has reached its final receiver"
+* #msg-created "Message created"
+* #msg-sent "Message sent"
+* #msg-received "Message received"
+* #msg-finalized "Message finalized"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
 Id: ehmi-delivery-status-sub-types-valueset
@@ -109,7 +109,8 @@ Description: "ehmi-delivery-status-agent.who.identifier for the EHMI Messaging I
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #GLN "GLN" "GLN representing either the sender or the receiver organization"
+* #GLN "GLN" "GLN representing either the endpoint of the sender or the receiver organization"
+* #SOR "SOR" "SOR representing either the sorkcode of the sender or the receiver organization"
 * #ehmiDEVICEID "DeviceId" "The recorded deviceid of a device used in EHMI"
 
 ValueSet: EhmiDeliveryStatusAgentWhoIdentifierTypesValueset
