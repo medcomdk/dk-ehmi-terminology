@@ -31,10 +31,10 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #msg-created "Message created"
-* #msg-sent "Message sent"
-* #msg-received "Message received"
-* #msg-finalized "Message finalized"
+* #msg-created "Message created" "used when a message is created in an Sender.EUA or an envelope_ack is created in Receiver.MSH"
+* #msg-sent "Message sent" "used wehen a message is sent in any system in a message/envelope flow"
+* #msg-received "Message received" "used wehen a message is received in any system in a message/envelope flow"
+* #msg-finalized "Message finalized" "used when a message is finanlized in a Receiver.EUA or an envelope_ack finalized in OrigSender.MSH"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
 Id: ehmi-delivery-status-sub-types-valueset
