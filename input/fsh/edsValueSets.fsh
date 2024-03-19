@@ -194,9 +194,11 @@ Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infr
 * ^caseSensitive = true
 * #ehmiPatient "Patient" "Patient"
 * #ehmiMessage "Message" "Message"
-* #ehmiEnvelope "Envelope" "Envelope"
+* #ehmiMessageEnvelope "Message Envelope" "Message Envelope"
+* #ehmiTransportEnvelope "Transport Envelope" "Transport Envelope"
 * #ehmiOrigMessage "Original Message" "Original Message"
-* #ehmiOrigEnvelope "Original Envelope" "Original Envelope"
+* #ehmiOrigMessageEnvelope "Original Message Envelope" "Original Message Envelope"
+* #ehmiOrigTransportEnvelope "Original Transport Envelope" "Original Transport Envelope"
 
 ValueSet: EhmiDeliveryStatusEntityTypeValueset
 Id: ehmi-delivery-status-entity-type-valueset
@@ -219,9 +221,10 @@ Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infr
 * ^experimental = false
 * ^caseSensitive = true
 * #ehmiMessageType "Message Type" "Message Type"
-* #ehmiEnvelopeType "Envelope Type" "Envelope Type"
 * #ehmiMessageVersion "Message Version" "Message Version"
-* #ehmiEnvelopeVersion "Envelope Version" "Envelope Version"
+* #ehmiMessageEnvelopeType "Message Envelope Type" "Message Envelope Type"
+* #ehmiTransportEnvelopeType "Transport Envelope Type" "Transport Envelope Type"
+* #ehmiTransportEnvelopeVersion "Transport Envelope Version" "Transport Envelope Version"
 
 ValueSet: EhmiDeliveryStatusEntityDetailTypeValueset
 Id: ehmi-delivery-status-entity-detail-type-valueset
