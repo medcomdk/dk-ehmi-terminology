@@ -163,9 +163,10 @@ Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infr
 * ^experimental = false
 * ^caseSensitive = true
 * #EUA "EUA (End-user Application)" "End-user display device, diagnostic device"
-* #EUP "EUP (End-user Application)" "End-user display device, diagnostic device - should be deprecated"
+* #EUA-MSH "EUA & MSH (End-user Application & Message Service Handler)" "End-user display device, diagnostic device combined with a Message Service Handler"
 * #MSH "MSH (Application Server)" "ISO level 4-6 operating software."
-* #AP "AP (Access Point -Network Router)" "ISO level 4-6 operating software."
+* #AP-MSH "AP & MSH (Access Point - Message Service Handler)" "Access Point - ISO level 4-6 operating software combined with a Message Service Handler"
+* #AP "AP (Access Point)" "Access Point - ISO level 4-6 operating software."
 * #ehmiEUAPPLICATION "End-user application" "End-user application"
 * #ehmiMESSAGESERVICEHANDLER "MSH" "The Message Service Handler that passes the message on"
 * #ehmiEDELIVERY-AP "eDelivery AP" "The eDelivery Access Point that passes the message on"
