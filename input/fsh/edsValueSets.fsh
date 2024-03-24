@@ -7,7 +7,7 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #ehmiMessaging "EHMI message events"
+* #ehmiMessaging "EHMI messaging event"
 
 ValueSet: EhmiDeliveryStatusTypesValueset
 Id: ehmi-delivery-status-types-valueset
@@ -17,7 +17,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS)Types"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-//* include codes from system EhmiDeliveryStatusTypes
+* include codes from system EhmiDeliveryStatusTypes
 * include codes from system $AuditEventTypes
 * include codes from system http://hl7.org/fhir/restful-interaction
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
@@ -32,9 +32,11 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^experimental = false
 * ^caseSensitive = true
 * #msg-created "Message created" "used when a message is created in an Sender.EUA or an envelope_ack is created in Receiver.MSH"
+* #msg-created-and-sent "Message created and sent" "used when a message is created and immediately sent in an Sender.EUA or an envelope_ack is created and immediately sent in Receiver.MSH"
 * #msg-sent "Message sent" "used wehen a message is sent in any system in a message/envelope flow"
 * #msg-received "Message received" "used wehen a message is received in any system in a message/envelope flow"
-* #msg-finalized "Message finalized" "used when a message is finanlized in a Receiver.EUA or an envelope_ack finalized in OrigSender.MSH"
+* #msg-received-and-finalized "Message received and finalized" "used when a message is received and immediately finalized in a Receiver.EUA or an envelope_ack received and imediately finalized in OrigSender.MSH"
+* #msg-finalized "Message finalized" "used when a message is finalized in a Receiver.EUA or an envelope_ack finalized in OrigSender.MSH"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
 Id: ehmi-delivery-status-sub-types-valueset
