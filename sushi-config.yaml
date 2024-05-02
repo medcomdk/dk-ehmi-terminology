@@ -76,7 +76,7 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-#  Terminology: terminology.html
+  Terminology: terminology.html
   Artifacts: artifacts.html
 #  Profiles: profiles.html
   Downloads: downloads.html
