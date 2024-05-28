@@ -12,8 +12,8 @@ Alias: $ehmiDeliveryStatusValueSet = http://medcomehmi.dk/dk-medcom-ehmi-termino
 Alias: $ehmiDeliveryStatusEntityMessageType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-entity-message-type
 */
 
-Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-medcom-message-definition-uri
-Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-medcom-message-definition-uri-valueset
+Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/dk-medcom-message-definition-uri
+Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/dk-medcom-message-definition-uri-valueset
 
 /*
 Alias: $AuditEventAgentNetworkType = http://hl7.org/fhir/R4/valueset-network-type.html

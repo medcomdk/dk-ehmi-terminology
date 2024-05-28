@@ -1,7 +1,7 @@
 CodeSystem: MedComMessageDefinitionUri
-Id: dk-medcom-ehmi-message-definition-uri
+Id: dk-medcom-message-definition-uri
 Title: "MedCom Message Definition Uri CS"
-Description: "CodeSystem containing codes for EHMI dk-medcom-ehmi-message-definition-uri"
+Description: "CodeSystem containing codes for EHMI dk-medcom-message-definition-uri"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -123,11 +123,11 @@ Description: "CodeSystem containing codes for EHMI dk-medcom-ehmi-message-defini
 * #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
 
 ValueSet: MedComMessageDefinitionUriVS
-Id: dk-medcom-ehmi-message-definition-uri-valueset
+Id: dk-medcom-message-definition-uri-valueset
 Title: "MedCom Message Definition Uri Valueset"
-Description: "ValueSet containing codes for EHMI dk-medcom-ehmi-message-definition-uri"
+Description: "ValueSet containing codes for EHMI dk-medcom-message-definition-uri"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-* include codes from system dk-medcom-ehmi-message-definition-uri
+* include codes from system dk-medcom-message-definition-uri
