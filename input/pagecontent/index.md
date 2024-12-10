@@ -1,3 +1,3 @@
 # dk-ehmi-terminology
 
-Feel free to modify this index page with your own awesome content!
+The Terminologies used to support EHMI
