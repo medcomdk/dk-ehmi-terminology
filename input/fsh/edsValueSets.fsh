@@ -225,6 +225,7 @@ Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infr
 * ^caseSensitive = true
 * #ehmiMessageType "Message Type" "Message Type"
 * #ehmiMessageVersion "Message Version" "Message Version"
+* #ehmiStatisticalInfo "Statistical Info" "Statistical Info"
 * #ehmiMessageEnvelopeType "Message Envelope Type" "Message Envelope Type"
 * #ehmiTransportEnvelopeType "Transport Envelope Type" "Transport Envelope Type"
 * #ehmiTransportEnvelopeVersion "Transport Envelope Version" "Transport Envelope Version"
