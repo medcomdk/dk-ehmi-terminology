@@ -131,8 +131,8 @@ Description: "CodeSystem containing codes for EHMI eer-message-definition-uri"
 * ^date  =  "2025-01-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
-* #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
+* #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
+* #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
 
 ValueSet: EerMessageDefinitionUriVS
 Id: eer-message-definition-uri-valueset
