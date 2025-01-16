@@ -1,6 +1,6 @@
 
-CodeSystem: MedComMessageDefinitionUri
-Id: medcom-message-definition-uri
+CodeSystem: EhmiMessageDefinitionUri
+Id: ehmi-message-definition-uri
 Title: "MedCom Message Definition Uri CS"
 Description: "CodeSystem containing MedCom Message codes for message exchange in EHMI"
 * ^version  =  "1.0.0"
@@ -121,7 +121,11 @@ Description: "CodeSystem containing MedCom Message codes for message exchange in
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:2.0 "HomeCareObservation 2.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0 "Acknowledgement 1.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0 "Acknowledgement 2.0"
+* #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
+* #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
 
+
+/*
 CodeSystem: EerMessageDefinitionUri
 Id: eer-message-definition-uri
 Title: "MedCom Message Definition Uri CS"
@@ -133,14 +137,15 @@ Description: "CodeSystem containing codes for EHMI eer-message-definition-uri"
 * ^caseSensitive = true
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
+*/
 
-ValueSet: EerMessageDefinitionUriVS
-Id: eer-message-definition-uri-valueset
+ValueSet: EhmiMessageDefinitionUriVS
+Id: ehmi-message-definition-uri-valueset
 Title: "MedCom Message Definition Uri Valueset"
 Description: "ValueSet containing codes for EHMI eer-message-definition-uri"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2025-01-01"
 * ^experimental = false
-* include codes from system medcom-message-definition-uri
-* include codes from system eer-message-definition-uri
+* include codes from system ehmi-message-definition-uri
+//* include codes from system eer-message-definition-uri
