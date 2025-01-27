@@ -1,0 +1,14 @@
+{
+    "package-id": "dk.ehmi.terminology",
+    "version": "1.0.0",
+    "path": "http://medcomehmi.dk/ig/dk.ehmi.terminology",
+    "status": "release",
+    "sequence": "Release",
+    "first" : true,
+    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk.ehmi.terminology",
+    "milestone" : true,
+    "title": "EHMI Addressing Service (TERMINOLOGY)",
+    "category": "EHMI",
+    "introduction": "EHMI Addressing Service (TERMINOLOGY)",
+    "descmd": "@release-notes.md"
+}
