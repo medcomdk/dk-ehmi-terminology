@@ -51,6 +51,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 //* include codes from system http://hl7.org/fhir/restful-interaction
 //* include codes from system http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
 
+/*
 ValueSet: EhmiDeliveryStatusSubTypesValueset2
 Id: ehmi-delivery-status-sub-types-valueset2
 Title: "EHMI Delivery Status (EDS) SubTypes Valueset"
@@ -63,6 +64,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 * include codes from system $AuditEventSubTypes
 //* include codes from system http://hl7.org/fhir/restful-interaction
 //* include codes from system http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
+*/
 
 ValueSet: EhmiDeliveryStatusOutcomeValueset
 Id: ehmi-delivery-status-outcome-valueset
