@@ -31,7 +31,7 @@ dependencies:
 #  hl7.fhir.dk.core: 2.0.0
 #  medcom.fhir.dk.core: 2.3.0
 #  medcom.fhir.dk.messaging: 2.0.0
-#  medcom.fhir.dk.terminology: 1.4.0
+  medcom.fhir.dk.terminology: current #1.4.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
