@@ -1,4 +1,3 @@
-/*
 CodeSystem: EhmiMessageDefinitionUri
 Id: ehmi-message-definition-uri
 Title: "MedCom Message Definition Uri CS"
@@ -123,7 +122,7 @@ Description: "CodeSystem containing MedCom Message codes for message exchange in
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0 "Acknowledgement 2.0"
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
-*/
+
 
 /*
 CodeSystem: EerMessageDefinitionUri
