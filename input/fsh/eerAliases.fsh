@@ -16,6 +16,12 @@ Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-termin
 Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-message-definition-uri-valueset
 
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-sor-organization-type
+Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
+
+Alias: $EerDigSigCS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type
+Alias: $EerDigSigVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type-valueset
+
 /*
 Alias: $AuditEventAgentNetworkType = http://hl7.org/fhir/R4/valueset-network-type.html
 Alias: $AuditEventEntityType = http://hl7.org/fhir/R4/valueset-audit-entity-type.html
