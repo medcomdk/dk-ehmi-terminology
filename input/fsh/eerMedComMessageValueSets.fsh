@@ -1,6 +1,6 @@
 CodeSystem: EhmiMessageDefinitionUri
 Id: ehmi-message-definition-uri
-Title: "MedCom Message Definition Uri CS"
+Title: "EHMI Endpoint Register (EER) - MedCom Message Definition Uri CS"
 Description: "CodeSystem containing MedCom Message codes for message exchange in EHMI"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -140,7 +140,7 @@ Description: "CodeSystem containing codes for EHMI eer-message-definition-uri"
 
 ValueSet: EhmiMessageDefinitionUriVS
 Id: ehmi-message-definition-uri-valueset
-Title: "MedCom Message Definition Uri Valueset"
+Title: "EHMI Endpoint Register (EER) - MedCom Message Definition Uri Valueset"
 Description: "ValueSet containing codes for EHMI eer-message-definition-uri"
 * ^version  =  "1.0.0"
 * ^status  =  #active
