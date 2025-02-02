@@ -1,6 +1,6 @@
 CodeSystem: EhmiDeliveryStatusTypes
 Id: ehmi-delivery-status-types
-Title: "EHMI Delivery Status (EDS) Types CS"
+Title: "EHMI Delivery Status (EDS) - Types CS"
 Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -11,7 +11,7 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 
 ValueSet: EhmiDeliveryStatusTypesValueset
 Id: ehmi-delivery-status-types-valueset
-Title: "EHMI Delivery Status (EDS) Types Valueset"
+Title: "EHMI Delivery Status (EDS) - Types Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS)Types"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -24,7 +24,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS)Types"
 
 CodeSystem: EhmiDeliveryStatusSubTypes
 Id: ehmi-delivery-status-sub-types
-Title: "EHMI Delivery Status (EDS) SubTypes CS"
+Title: "EHMI Delivery Status (EDS) - SubTypes CS"
 Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -40,7 +40,7 @@ Description: "ehmi-delivery-status-types for the EHMI Messaging Infrastructure"
 
 ValueSet: EhmiDeliveryStatusSubTypesValueset
 Id: ehmi-delivery-status-sub-types-valueset
-Title: "EHMI Delivery Status (EDS) SubTypes Valueset"
+Title: "EHMI Delivery Status (EDS) - SubTypes Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -55,7 +55,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 /*
 ValueSet: EhmiDeliveryStatusSubTypesValueset2
 Id: ehmi-delivery-status-sub-types-valueset2
-Title: "EHMI Delivery Status (EDS) SubTypes Valueset"
+Title: "EHMI Delivery Status (EDS) - SubTypes Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -69,7 +69,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 
 ValueSet: EhmiDeliveryStatusOutcomeValueset
 Id: ehmi-delivery-status-outcome-valueset
-Title: "EHMI Delivery Status (EDS) Outcome Valueset"
+Title: "EHMI Delivery Status (EDS) - Outcome Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -82,7 +82,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 
 CodeSystem: EhmiDeliveryStatusParticipationRoleType
 Id: ehmi-delivery-status-participationroletype
-Title: "EHMI Delivery Status (EDS) ParticipationRoleType CS"
+Title: "EHMI Delivery Status (EDS) - ParticipationRoleType CS"
 Description: "ehmi-delivery-status-participationroletype for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -95,7 +95,7 @@ Description: "ehmi-delivery-status-participationroletype for the EHMI Messaging 
 
 ValueSet: EhmiDeliveryStatusParticipationRoleTypeValueset
 Id: ehmi-delivery-status-participationroletype-valueset
-Title: "EHMI Delivery Status (EDS) ParticipationRoleType Valueset"
+Title: "EHMI Delivery Status (EDS) - ParticipationRoleType Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) ParticipationRole"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -107,7 +107,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Participa
 
 CodeSystem: EhmiDeliveryStatusAgentWhoIdentifierTypes
 Id: ehmi-delivery-status-agent-who-identifier-types
-Title: "EHMI Delivery Status (EDS) agent.who.identifier Types CS"
+Title: "EHMI Delivery Status (EDS) - agent.who.identifier Types CS"
 Description: "ehmi-delivery-status-agent.who.identifier for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -120,7 +120,7 @@ Description: "ehmi-delivery-status-agent.who.identifier for the EHMI Messaging I
 
 ValueSet: EhmiDeliveryStatusAgentWhoIdentifierTypesValueset
 Id: ehmi-delivery-status-agent-who-identifier-types-valueset
-Title: "EHMI Delivery Status (EDS) AgentWhoIdentifier Types Valueset"
+Title: "EHMI Delivery Status (EDS) - AgentWhoIdentifier Types Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoIdentifiers"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -134,7 +134,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoI
 /*
 CodeSystem: AuditEventAgentNetwork
 Id: ehmi-delivery-status-network
-Title: "EHMI Delivery Status (EDS) audit-source-type CS"
+Title: "EHMI Delivery Status (EDS) - audit-source-type CS"
 Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -146,7 +146,7 @@ Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infr
 
 ValueSet: AuditEventAgentNetworkValueset
 Id: ehmi-delivery-status-network-valueset
-Title: "EHMI Delivery Status (EDS) Network Valueset"
+Title: "EHMI Delivery Status (EDS) - Network Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) ehmi-delivery-status-network"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -158,7 +158,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) ehmi-deli
 
 CodeSystem: EhmiDeliveryStatusSourceType
 Id: ehmi-delivery-status-source-type
-Title: "EHMI Delivery Status (EDS) Source Type CS"
+Title: "EHMI Delivery Status (EDS) - Source Type CS"
 Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -181,7 +181,7 @@ Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infr
 
 ValueSet: EhmiDeliveryStatusSourceTypeValueset
 Id: ehmi-delivery-status-source-type-valueset
-Title: "EHMI Delivery Status (EDS) Source Type Valueset"
+Title: "EHMI Delivery Status (EDS) - Source Type Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoIdentifiers"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -191,7 +191,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoI
 
 CodeSystem: EhmiDeliveryStatusEntityType
 Id: ehmi-delivery-status-entity-type
-Title: "EHMI Delivery Status (EDS) Entity Type CS"
+Title: "EHMI Delivery Status (EDS) - Entity Type CS"
 Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -208,7 +208,7 @@ Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infr
 
 ValueSet: EhmiDeliveryStatusEntityTypeValueset
 Id: ehmi-delivery-status-entity-type-valueset
-Title: "EHMI Delivery Status (EDS) Entity Type Valueset"
+Title: "EHMI Delivery Status (EDS) - Entity Type Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -219,7 +219,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Ty
 
 CodeSystem: EhmiDeliveryStatusEntityDetailType
 Id: ehmi-delivery-status-entity-detail-type
-Title: "EHMI Delivery Status (EDS) Entity Type CS"
+Title: "EHMI Delivery Status (EDS) - Entity Type CS"
 Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -235,7 +235,7 @@ Description: "EHMI Delivery Status (EDS) Entity Type for the EHMI Messaging Infr
 
 ValueSet: EhmiDeliveryStatusEntityDetailTypeValueset
 Id: ehmi-delivery-status-entity-detail-type-valueset
-Title: "EHMI Delivery Status (EDS) Entity Detail Type Valueset"
+Title: "EHMI Delivery Status (EDS) - Entity Detail Type Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Detail Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -245,7 +245,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity De
 
 CodeSystem: EhmiDeliveryStatusEntityMessageType
 Id: ehmi-delivery-status-entity-message-type
-Title: "EHMI Delivery Status (EDS) Entity MessageType CS"
+Title: "EHMI Delivery Status (EDS) - Entity MessageType CS"
 Description: "Codesystem containing codes for EHMI Delivery Status (EDS) Entity MessageType"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -259,7 +259,7 @@ Description: "Codesystem containing codes for EHMI Delivery Status (EDS) Entity 
 
 ValueSet: EhmiDeliveryStatusEntityMessageTypeValueset
 Id: ehmi-delivery-status-entity-message-type-valueset
-Title: "EHMI Delivery Status (EDS) Entity MessageType Valueset"
+Title: "EHMI Delivery Status (EDS) - Entity MessageType Valueset"
 Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity MessageType"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -270,7 +270,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Me
 
 ValueSet: EhmiDeliveryStatusRestObjectRolesVS
 Id: ehmi-delivery-status-rest-object-roles-valueset
-Title: "EHMI Delivery Status (EDS) RESTful objects role in the event"
+Title: "EHMI Delivery Status (EDS) - RESTful objects role in the event"
 Description: "The role that the given Object played in the Audit Event recorded"
 // I expect "Domain Resource" most of the time for reading, and "Job" for creates
 * ^experimental = false
@@ -280,7 +280,7 @@ Description: "The role that the given Object played in the Audit Event recorded"
 
 ValueSet: EhmiDeliveryStatusAllReadVS
 Id: ehmi-delivery-status-rest-all-read-valueset
-Title: "EHMI Delivery Status (EDS) restful-interaction Reads"
+Title: "EHMI Delivery Status (EDS) - restful-interaction Reads"
 Description: "ValueSet of the restful-interaction reads"
 * ^experimental = false
 * http://hl7.org/fhir/restful-interaction#read // "read"
