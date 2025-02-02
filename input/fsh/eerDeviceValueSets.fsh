@@ -1,6 +1,6 @@
 CodeSystem: EerDeviceType
 Id: eer-device-type
-Title: "EER-Device-Type CodeSystem"
+Title: "EHMI Endpoint Register (EER) Device-Type CodeSystem"
 Description: "CodeSystem containing codes for EER-Device-Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -15,7 +15,7 @@ Description: "CodeSystem containing codes for EER-Device-Type"
 
 ValueSet: EerDeviceTypeVS
 Id: eer-device-type-valueset
-Title: "EER SOR Organization Identier Type Valueset"
+Title: "EHMI Endpoint Register (EER) SOR Organization Identier Type Valueset"
 Description: "ValueSet containing codes for EER-Device-Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
