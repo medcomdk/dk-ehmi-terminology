@@ -4,7 +4,7 @@ Title: "EHMI EDelivery SBDH DOCUMENTID CS"
 Description: "EHMI EDelivery SBDH DOCUMENTID for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
+* ^date  =  "2025-02-01"
 * ^experimental = false
 * ^caseSensitive = true
 * #urn:dk:healthcare:prod:medcom:messaging:edifact:dis91	"EDIFACT Korrespondancebrev type"
@@ -18,7 +18,7 @@ Title: "EHMI EDelivery SBDH DOCUMENTID CS"
 Description: "EHMI EDelivery SBDH DOCUMENTID for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
+* ^date  =  "2025-02-01"
 * ^experimental = false
 * ^caseSensitive = true
 * #urn:dk:healthcare:medcom:edifact:d9134l	"Korrespondancebrev version"

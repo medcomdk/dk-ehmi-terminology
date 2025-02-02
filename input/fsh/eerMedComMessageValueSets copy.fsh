@@ -5,7 +5,7 @@ Title: "MedCom Message Definition Uri CS"
 Description: "CodeSystem containing codes for EHMI ehmi-message-definition-uri"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
+* ^date  =  "2025-02-01"
 * ^experimental = false
 * ^caseSensitive = true
 * #urn:dk:healthcare:medcom:messaging:edifact:medbin:bin02:b0210x	"Binær dokumenttransport til bilag for alle henvisningstyper"
@@ -130,7 +130,7 @@ Title: "MedCom Message Definition Uri Valueset"
 Description: "ValueSet containing codes for EHMI ehmi-message-definition-uri"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
+* ^date  =  "2025-02-01"
 * ^experimental = false
 * include codes from system ehmi-message-definition-uri
 */

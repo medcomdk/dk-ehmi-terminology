@@ -1,11 +1,11 @@
 CodeSystem: EerSorRegionType
 Id: eer-sor-region-type
-Title: "EER SOR Region Types CS"
+Title: "EHMI Endpoint Register (EER) - SOR Region Types CS"
 Description: "eer-sor-region-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
-* ^experimental = true
+* ^date  =  "2025-02-01"
+* ^experimental = false
 * ^caseSensitive = true
 * #1 "Other"
 * #1084 "SOR Capital Region (DK:Region Hovedstaden)"
@@ -16,23 +16,23 @@ Description: "eer-sor-region-type for the EHMI Messaging Infrastructure"
 
 ValueSet: EerSorRegionTypeVS
 Id: eer-sor-region-type-valueset
-Title: "EER SOR Region Types Valueset"
+Title: "EHMI Endpoint Register (EER) - SOR Region Types Valueset"
 Description: "ValueSet containing codes for EHMI eer-sor-region-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
-* ^experimental = true
+* ^date  =  "2025-02-01"
+* ^experimental = false
 //* include codes from system eer-sor-region-type
 * include codes from system http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes
 
 CodeSystem: EerSorMunicipalityType
 Id: eer-sor-municipality-type
-Title: "EER SOR Municipality Types CS"
+Title: "EHMI Endpoint Register (EER) - SOR Municipality Types CS"
 Description: "eer-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
-* ^experimental = true
+* ^date  =  "2025-02-01"
+* ^experimental = false
 * ^caseSensitive = true
 * #0101 "København"
 * #0147 "Frederiksberg"
@@ -136,11 +136,11 @@ Description: "eer-sor-Municipality-type for the EHMI Messaging Infrastructure"
 
 ValueSet: EerSorMunicipalityTypeVS
 Id: eer-sor-municipality-type-valueset
-Title: "EER SOR Municipality Types Valueset"
+Title: "EHMI Endpoint Register (EER) - SOR Municipality Types Valueset"
 Description: "ValueSet containing codes for EHMI eer-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
-* ^experimental = true
+* ^date  =  "2025-02-01"
+* ^experimental = false
 * include codes from system http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
 

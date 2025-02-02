@@ -5,7 +5,7 @@ Description: "CodeSystem containing codes for EER-Device-Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2024-02-01"
-* ^experimental = true
+* ^experimental = false
 * ^caseSensitive = true
 * #EOJ "Electronical Homecare Journal" "EOJ"
 * #LPS "General Practitioner System" "LPS"
@@ -19,7 +19,7 @@ Title: "EHMI Endpoint Register (EER) SOR Organization Identier Type Valueset"
 Description: "ValueSet containing codes for EER-Device-Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
-* ^date  =  "2023-09-01"
-* ^experimental = true
+* ^date  =  "2025-02-01"
+* ^experimental = false
 * include codes from system eer-device-type
 
