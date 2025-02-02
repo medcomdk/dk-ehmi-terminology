@@ -1,7 +1,7 @@
 CodeSystem: EDeliverySbdhDocumentIdType
 Id: edelivery-sbdh-documentid-type
-Title: "EHMI EDelivery SBDH DOCUMENTID CS"
-Description: "EHMI EDelivery SBDH DOCUMENTID for the EHMI Messaging Infrastructure"
+Title: "Title: "EHMI Endpoint Register (EER) - SBDH DOCUMENTID CS"
+Description: "Title: "EHMI Endpoint Register (EER) - SBDH DOCUMENTID for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2025-02-01"
@@ -14,8 +14,8 @@ Description: "EHMI EDelivery SBDH DOCUMENTID for the EHMI Messaging Infrastructu
 
 CodeSystem: EDeliverySbdhDocumentIdTypeversion
 Id: edelivery-sbdh-documentid-typeversion
-Title: "EHMI EDelivery SBDH DOCUMENTID CS"
-Description: "EHMI EDelivery SBDH DOCUMENTID for the EHMI Messaging Infrastructure"
+Title: "Title: "EHMI Endpoint Register (EER) - SBDH DOCUMENTID CS"
+Description: "Title: "EHMI Endpoint Register (EER) - SBDH DOCUMENTID for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2025-02-01"
