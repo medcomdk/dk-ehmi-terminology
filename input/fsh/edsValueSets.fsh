@@ -270,7 +270,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Me
 
 ValueSet: EhmiDeliveryStatusRestObjectRolesVS
 Id: ehmi-delivery-status-rest-object-roles-valueset
-Title: "RESTful objects role in the event"
+Title: "EHMI Delivery Status (EDS) RESTful objects role in the event"
 Description: "The role that the given Object played in the Audit Event recorded"
 // I expect "Domain Resource" most of the time for reading, and "Job" for creates
 * ^experimental = false
@@ -280,7 +280,7 @@ Description: "The role that the given Object played in the Audit Event recorded"
 
 ValueSet: EhmiDeliveryStatusAllReadVS
 Id: ehmi-delivery-status-rest-all-read-valueset
-Title: "all Reads"
+Title: "EHMI Delivery Status (EDS) restful-interaction Reads"
 Description: "ValueSet of the restful-interaction reads"
 * ^experimental = false
 * http://hl7.org/fhir/restful-interaction#read // "read"
