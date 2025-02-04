@@ -9,5 +9,6 @@
     "milestone" : true,
     "title": "EHMI Terminology",
     "category": "EHMI",
+    "introduction": "EHMI Terminology",
     "descmd": "@release-notes.md"
 }
