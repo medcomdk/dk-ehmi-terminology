@@ -7,8 +7,7 @@
     "first" : true,
     "ci-build" : "https://build.fhir.org/ig/medcomdk/dk.ehmi.terminology",
     "milestone" : true,
-    "title": "EHMI Addressing Service (TERMINOLOGY)",
+    "title": "EHMI Terminology",
     "category": "EHMI",
-    "introduction": "EHMI Addressing Service (TERMINOLOGY)",
     "descmd": "@release-notes.md"
 }
