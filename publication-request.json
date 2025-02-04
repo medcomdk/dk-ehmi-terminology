@@ -1,11 +1,11 @@
 {
     "package-id": "dk.ehmi.terminology",
     "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/dk.ehmi.terminology",
+    "path": "http://medcomehmi.dk/ig/terminology/1.0.0",
     "status": "release",
     "sequence": "Release",
     "first" : true,
-    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk.ehmi.terminology",
+    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-terminology",
     "milestone" : true,
     "title": "EHMI Terminology",
     "category": "EHMI",

@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: dk.ehmi.terminology
-canonical: http://medcomehmi.dk/ig/dk-ehmi-terminology
+canonical: http://medcomehmi.dk/ig/terminology
 name: DK EHMI Terminology IG
 title: "DK EHMI Terminology"
 description: The DK EHMI Terminology IG
