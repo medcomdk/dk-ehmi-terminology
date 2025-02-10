@@ -1,26 +1,26 @@
 /*
-Alias: $ehmiDeliveryStatusTypes = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-types
-Alias: $ehmiDeliveryStatusSubTypes = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-sub-types
-Alias: $ehmiDeliveryStatusSubTypesValueset = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-sub-types
+Alias: $ehmiDeliveryStatusTypes = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-types
+Alias: $ehmiDeliveryStatusSubTypes = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-sub-types
+Alias: $ehmiDeliveryStatusSubTypesValueset = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-sub-types
 Alias: $ehmiDeliveryStatusOutcome = http://hl7.org/fhir/audit-event-outcome
-Alias: $ehmiDeliveryStatusSourceType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-source-type
-Alias: $ehmiDeliveryStatusParticipationRoleType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-participationroletype
-Alias: $ehmiDeliveryStatusAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-agent-who-identifier-types
-Alias: $ehmiDeliveryStatusEntityType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-entity-type
-Alias: $ehmiDeliveryStatusEntityDetailType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-entity-detail-type
-Alias: $ehmiDeliveryStatusValueSet = http://medcomehmi.dk/dk-medcom-ehmi-terminology/CodeSystem/ehmiDeliveryStatusValueSet
-Alias: $ehmiDeliveryStatusEntityMessageType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-entity-message-type
+Alias: $ehmiDeliveryStatusSourceType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-source-type
+Alias: $ehmiDeliveryStatusParticipationRoleType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-participationroletype
+Alias: $ehmiDeliveryStatusAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-agent-who-identifier-types
+Alias: $ehmiDeliveryStatusEntityType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-entity-type
+Alias: $ehmiDeliveryStatusEntityDetailType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-entity-detail-type
+Alias: $ehmiDeliveryStatusValueSet = http://medcomehmi.dk/terminology/CodeSystem/ehmiDeliveryStatusValueSet
+Alias: $ehmiDeliveryStatusEntityMessageType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-entity-message-type
 */
 
-Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-message-definition-uri
-Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-message-definition-uri
-Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-message-definition-uri-valueset
+Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-message-definition-uri
+Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-message-definition-uri
+Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-message-definition-uri-valueset
 
-Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-sor-organization-type
-Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
+Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 
-Alias: $EerDigSigCS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type
-Alias: $EerDigSigVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type-valueset
+Alias: $EerDigSigCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-digital-signature-type
+Alias: $EerDigSigVS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-digital-signature-type-valueset
 
 /*
 Alias: $AuditEventAgentNetworkType = http://hl7.org/fhir/R4/valueset-network-type.html
@@ -34,40 +34,40 @@ Alias: $AuditEventTypes2 = http://dicom.nema.org/resources/ontology/DCM
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
 
-Alias: $EHMISORorganizationIdentierType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-organization-identier-type
-Alias: $EHMISORorganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-organization-identier-type-valueset
+Alias: $EHMISORorganizationIdentierType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-organization-identier-type
+Alias: $EHMISORorganizationIdentierTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-organization-identier-type-valueset
 
-Alias: $EHMIMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-messagedefinition-identifier-system
-Alias: $EHMIMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-messagedefinition-identifier-system-valueset
+Alias: $EHMIMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-messagedefinition-identifier-system
+Alias: $EHMIMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-messagedefinition-identifier-system-valueset
 
-Alias: $EHMIEndpointConnectionType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-connection-type
-Alias: $EHMIEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-connection-type-valueset
+Alias: $EHMIEndpointConnectionType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-connection-type
+Alias: $EHMIEndpointConnectionTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-connection-type-valueset
 
-Alias: $EHMIEndpointPayloadType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-payload-type
-Alias: $EHMIEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-payload-type-valueset
+Alias: $EHMIEndpointPayloadType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-payload-type
+Alias: $EHMIEndpointPayloadTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-payload-type-valueset
 
-Alias: $EHMISOROrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-organization-type
-Alias: $EHMISOROrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-organization-type-valueset
+Alias: $EHMISOROrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-organization-type
+Alias: $EHMISOROrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-organization-type-valueset
 
-Alias: $EHMISORIOOrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-io-organization-type
-Alias: $EHMISORIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-io-organization-type-valueset
+Alias: $EHMISORIOOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-io-organization-type
+Alias: $EHMISORIOOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-io-organization-type-valueset
 
-Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-medcom-message-definition-type
-Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-medcom-message-definition-type-valueset
+Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-medcom-message-definition-type
+Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-medcom-message-definition-type-valueset
 
-Alias: $EHMISORUnitType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-unit-type
-Alias: $EHMISORUnitTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-unit-type-valueset
+Alias: $EHMISORUnitType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-unit-type
+Alias: $EHMISORUnitTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-unit-type-valueset
 
-Alias: $EHMISORClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-clinical-administrative-hierarchy
-Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-clinical-administrative-hierarchy-valueset
+Alias: $EHMISORClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-clinical-administrative-hierarchy
+Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-clinical-administrative-hierarchy-valueset
 
-Alias: $EHMISORMunicipalityCode = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-sor-municipality-type
-Alias: $EHMISORMunicipalityCodeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-sor-municipality-type-valueset
+Alias: $EHMISORMunicipalityCode = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-sor-municipality-type
+Alias: $EHMISORMunicipalityCodeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-sor-municipality-type-valueset
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 
 Alias: $EHMIUseContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
-Alias: $EHMIUseContextCodeSystemVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-messagedefinition-use-context-code-valueset
+Alias: $EHMIUseContextCodeSystemVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-messagedefinition-use-context-code-valueset
 */
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
