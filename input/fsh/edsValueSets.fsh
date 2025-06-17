@@ -126,7 +126,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoI
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system EhmiDeliveryStatusAgentWhoIdentifierTypes
+* include codes from system $EhmiDeliveryStatusAgentWhoIdentifierTypes
 * include #110152 from system http://dicom.nema.org/resources/ontology/DCM
 * include #110153 from system http://dicom.nema.org/resources/ontology/DCM
 //* include codes from system http://hl7.org/fhir/R4/valueset-participation-role-type.html
@@ -187,7 +187,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoI
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system EhmiDeliveryStatusSourceType
+* include codes from system $EhmiDeliveryStatusSourceType
 
 CodeSystem: EhmiDeliveryStatusEntityType
 Id: ehmi-delivery-status-entity-type
@@ -214,7 +214,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Ty
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system EhmiDeliveryStatusEntityType
+* include codes from system $EhmiDeliveryStatusEntityType
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
 
 CodeSystem: EhmiDeliveryStatusEntityDetailType
@@ -241,7 +241,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity De
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system EhmiDeliveryStatusEntityDetailType
+* include codes from system $EhmiDeliveryStatusEntityDetailType
 
 CodeSystem: EhmiDeliveryStatusEntityMessageType
 Id: ehmi-delivery-status-entity-message-type
