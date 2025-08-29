@@ -1,1 +1,1 @@
-Initial release of dk-ehmi-terminology
+Draft release

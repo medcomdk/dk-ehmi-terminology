@@ -18,7 +18,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS)Types"
 * ^date  =  "2025-02-01"
 * ^experimental = false
 * include codes from system EhmiDeliveryStatusTypes
-* include codes from system $AuditEventTypes
+* include codes from system http://terminology.hl7.org/CodeSystem/audit-event-type
 * include codes from system http://hl7.org/fhir/restful-interaction
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
 
@@ -46,26 +46,8 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system $EhmiDeliveryStatusSubTypes
+* include codes from valueset http://hl7.org/fhir/ValueSet/audit-event-sub-type
 * include codes from system ehmi-delivery-status-sub-types
-//* include codes from system $AuditEventSubTypes
-//* include codes from system http://hl7.org/fhir/restful-interaction
-//* include codes from system http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
-
-/*
-ValueSet: EhmiDeliveryStatusSubTypesValueset2
-Id: ehmi-delivery-status-sub-types-valueset2
-Title: "EHMI Delivery Status (EDS) - SubTypes Valueset"
-Description: "ValueSet containing codes for EHMI Delivery Status (EDS) SubTypes"
-* ^version  =  "1.0.0"
-* ^status  =  #active
-* ^date  =  "2025-02-01"
-* ^experimental = false
-* include codes from system EhmiDeliveryStatusSubTypes
-* include codes from system $AuditEventSubTypes
-//* include codes from system http://hl7.org/fhir/restful-interaction
-//* include codes from system http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
-*/
 
 ValueSet: EhmiDeliveryStatusOutcomeValueset
 Id: ehmi-delivery-status-outcome-valueset
@@ -126,23 +108,9 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoI
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system $EhmiDeliveryStatusAgentWhoIdentifierTypes
+* include codes from system ehmi-delivery-status-agent-who-identifier-types
 * include #110152 from system http://dicom.nema.org/resources/ontology/DCM
 * include #110153 from system http://dicom.nema.org/resources/ontology/DCM
-//* include codes from system http://hl7.org/fhir/R4/valueset-participation-role-type.html
-//* include codes from system http://hl7.org/fhir/R5/valueset-resource-types.html
-/*
-CodeSystem: AuditEventAgentNetwork
-Id: ehmi-delivery-status-network
-Title: "EHMI Delivery Status (EDS) - audit-source-type CS"
-Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infrastructure"
-* ^version  =  "1.0.0"
-* ^status  =  #active
-* ^date  =  "2025-02-01"
-* ^experimental = false
-* ^caseSensitive = true
-* #1 "Machine Name" "The machine name, including DNS name"
-*/
 
 ValueSet: AuditEventAgentNetworkValueset
 Id: ehmi-delivery-status-network-valueset
@@ -152,9 +120,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) ehmi-deli
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-//* include codes from system ehmi-delivery-status-network
 * include #1 from system http://hl7.org/fhir/network-type
-//* include #2 from system http://hl7.org/fhir/network-type
 
 CodeSystem: EhmiDeliveryStatusSourceType
 Id: ehmi-delivery-status-source-type
@@ -173,11 +139,6 @@ Description: "ehmi-delivery-status-audit-source-type for the EHMI Messaging Infr
 * #ehmiEUAPPLICATION "End-user application" "End-user application"
 * #ehmiMESSAGESERVICEHANDLER "MSH" "The Message Service Handler that passes the message on"
 * #ehmiEDELIVERY-AP "eDelivery AP" "The eDelivery Access Point that passes the message on"
-/*
-* include #1 from system http://terminology.hl7.org/CodeSystem/security-source-type
-* include #4 from system http://terminology.hl7.org/CodeSystem/security-source-type
-* include #8 from system http://terminology.hl7.org/CodeSystem/security-source-type
-*/
 
 ValueSet: EhmiDeliveryStatusSourceTypeValueset
 Id: ehmi-delivery-status-source-type-valueset
@@ -187,7 +148,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) AgentWhoI
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system $EhmiDeliveryStatusSourceType
+* include codes from system ehmi-delivery-status-source-type
 
 CodeSystem: EhmiDeliveryStatusEntityType
 Id: ehmi-delivery-status-entity-type
@@ -214,7 +175,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Ty
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system $EhmiDeliveryStatusEntityType
+* include codes from system ehmi-delivery-status-entity-type
 * include codes from system http://terminology.hl7.org/CodeSystem/audit-entity-type
 
 CodeSystem: EhmiDeliveryStatusEntityDetailType
@@ -241,7 +202,7 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity De
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system $EhmiDeliveryStatusEntityDetailType
+* include codes from system ehmi-delivery-status-entity-detail-type
 
 CodeSystem: EhmiDeliveryStatusEntityMessageType
 Id: ehmi-delivery-status-entity-message-type
@@ -265,17 +226,14 @@ Description: "ValueSet containing codes for EHMI Delivery Status (EDS) Entity Me
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* include codes from system EhmiDeliveryStatusEntityMessageType
-//* include codes from system $MedComMessagingMessageEvents
+* include codes from system ehmi-delivery-status-entity-message-type
 
 ValueSet: EhmiDeliveryStatusRestObjectRolesVS
 Id: ehmi-delivery-status-rest-object-roles-valueset
 Title: "EHMI Delivery Status (EDS) - RESTful objects role in the event"
 Description: "The role that the given Object played in the Audit Event recorded"
-// I expect "Domain Resource" most of the time for reading, and "Job" for creates
 * ^experimental = false
 * http://terminology.hl7.org/CodeSystem/object-role#4 "Domain Resource"
-//* http://terminology.hl7.org/CodeSystem/object-role#3 "Report"
 * http://terminology.hl7.org/CodeSystem/object-role#20 "Job"
 
 ValueSet: EhmiDeliveryStatusAllReadVS
@@ -283,6 +241,6 @@ Id: ehmi-delivery-status-rest-all-read-valueset
 Title: "EHMI Delivery Status (EDS) - restful-interaction Reads"
 Description: "ValueSet of the restful-interaction reads"
 * ^experimental = false
-* http://hl7.org/fhir/restful-interaction#read // "read"
-* http://hl7.org/fhir/restful-interaction#vread // "vread"
+* http://hl7.org/fhir/restful-interaction#read
+* http://hl7.org/fhir/restful-interaction#vread
 

@@ -22,7 +22,6 @@ Description: "ValueSet containing codes for EHMI eer-sor-region-type"
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-//* include codes from system eer-sor-region-type
 * include codes from system http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes
 
 CodeSystem: EerSorMunicipalityType

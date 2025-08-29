@@ -13,7 +13,6 @@ Description: "EHMI Endpoint Register (EER) - SBDH DOCUMENTID for the EHMI Messag
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "ehmiSBDH 1.0"
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0 "ehmiSBDH Ack 1.0"
 
-
 CodeSystem: EDeliverySbdhDocumentIdTypeversion
 Id: edelivery-sbdh-documentid-typeversion
 Title: "EHMI Endpoint Register (EER) - SBDH DOCUMENTID CS"

@@ -11,7 +11,6 @@ Description: "CodeSystem containing codes for EER SOR Organization Identier Type
 * #SORID "SOR Identifier" "Sorkode"
 * #MunicipalityCode "Municipality Code" "Kommunekode"
 * #RegionCode "Region Code" "Regionskode"
-//* include codes from system http://hl7.org/fhir/ValueSet/identifier-type
 
 ValueSet: EerMessagingOrganizationIdentierTypeVS
 Id: eer-sor-organization-identier-type-valueset
@@ -47,9 +46,6 @@ Description: "ValueSet containing codes for EER connectionTypes"
 * ^date  =  "2025-02-01"
 * ^experimental = false
 * include codes from system eer-endpoint-connection-type
-//* include #hl7-fhir-msg from system $mCSDEndpointConnectionType
-//* include #hl7-fhir-rest from system $mCSDEndpointConnectionType
-//* include #ihe-xds from system $mCSDEndpointConnectionType
 
 CodeSystem: EerEndpointPayloadType
 Id: ehmi-payload-type
@@ -91,11 +87,23 @@ Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^experimental = false
 * ^caseSensitive = true
 * #IO "SOR Organization - Institution Owner IO (DK:IE)"
-  * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
-    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
-* #IE "SOR Organization - Institution Owner IO" ""
-  * #SI "SOR Organization - Healthcare Institution HI"
-    * #OE "SOR Organization - Organizational Unit OU"
+  * ^designation[+].language = #da
+  * ^designation[=].value = "Institutionsejer"
+* #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
+  * ^designation[+].language = #da
+  * ^designation[=].value = "Sundhedsinstitution"
+* #OU "SOR Organization - Organizational Unit OU (DK:OE)"
+  * ^designation[+].language = #da
+  * ^designation[=].value = "Organisatorisk enhed"
+* #IE "SOR Organization - Institution Owner IO"
+  * ^designation[+].language = #da
+  * ^designation[=].value = "Institutionsejer"
+* #SI "SOR Organization - Healthcare Institution HI"
+  * ^designation[+].language = #da
+  * ^designation[=].value = "Sundhedsinstitution"
+* #OE "SOR Organization - Organizational Unit OU"
+  * ^designation[+].language = #da
+  * ^designation[=].value = "Organisatorisk enhed"
 
 ValueSet: EerMessagingOrganizationTypeVS
 Id: eer-sor-organization-type-valueset
@@ -105,32 +113,7 @@ Description: "ValueSet containing codes for EER eer-sor-organization-type"
 * ^status  =  #active
 * ^date  =  "2025-02-01"
 * ^experimental = false
-* ^compose.include[+].system = $EerMessagingOrganizationType
-* ^compose.include[=].concept[+].code = #IO
-* ^compose.include[=].concept[=].display = "Institution Owner"
-* ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "Institutionsejer"
-* ^compose.include[=].concept[+].code = #HI
-* ^compose.include[=].concept[=].display = "Healthcare Institution"
-* ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "Sundhedsinstitution"
-* ^compose.include[=].concept[+].code = #OU
-* ^compose.include[=].concept[=].display = "Organizational Unit"
-* ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
-* ^compose.include[=].concept[+].code = #IE
-* ^compose.include[=].concept[=].display = "Institution Owner"
-* ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "Institutionsejer"
-* ^compose.include[=].concept[+].code = #SI
-* ^compose.include[=].concept[=].display = "Healthcare Institution"
-* ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "Sundhedsinstitution"
-* ^compose.include[=].concept[+].code = #OE
-* ^compose.include[=].concept[=].display = "Organizational Unit"
-* ^compose.include[=].concept[=].designation[+].language = #da
-* ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
-//* include codes from system eer-sor-organization-type
+* include codes from system eer-sor-organization-type
 
 CodeSystem: EerSorNetOperator
 Id: eer-sor-net-operator-type
@@ -326,4 +309,4 @@ Description: "eer-digital-signature-types for the EER Messaging Infrastructure"
 * ^status  =  #active
 * ^date  =  "2024-09-01"
 * ^experimental = false
-* include codes from system $EerDigSigCS
+* include codes from system eer-digital-signature-type
