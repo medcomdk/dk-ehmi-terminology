@@ -1,5 +1,5 @@
 {
-    "package-id": "dk.ehmi.terminology",
+    "package-id": "medcom.ehmi.dk.terminology",
     "version": "1.0.0-draft",
     "path": "http://medcomehmi.dk/ig/terminology/1.0.0-draft",
     "status": "draft",
