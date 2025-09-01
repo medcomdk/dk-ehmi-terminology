@@ -8,7 +8,7 @@
     "descmd": "@release-notes.md",
     "desc": "Draft release",
     "first" : true,
-    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-terminology",
+    "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-ehmi-terminology",
     "title": "EHMI Terminology",
     "category": "Terminology",
     "introduction": "Terminology for MedCom's Enhanced Healthcare Messaging Infrastructure (EHMI)"
