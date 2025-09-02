@@ -1,8 +1,8 @@
 {
     "package-id": "dk.ehmi.terminology",
-    "version": "1.0.0-draft",
-    "path": "http://medcomehmi.dk/ig/terminology/1.0.0-draft",
-    "status": "draft",
+    "version": "1.0.0",
+    "path": "http://medcomehmi.dk/ig/terminology/1.0.0",
+    "status": "active",
     "sequence": "Release 1.x.x",
     "mode": "milestone",
     "descmd": "@release-notes.md",
