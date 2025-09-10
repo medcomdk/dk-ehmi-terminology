@@ -117,7 +117,7 @@ Description: "CodeSystem containing MedCom Message codes for message exchange in
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.1 "CareCommunication 2.1"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0 "CareCommunication 3.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0 "HomeCareObservation 1.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:2.0 "HomeCareObservation 2.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.1 "HomeCareObservation 1.1"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0 "Acknowledgement 1.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0 "Acknowledgement 2.0"
 * #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
