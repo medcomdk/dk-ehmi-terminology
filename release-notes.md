@@ -1,1 +1,1 @@
-Draft release
+Removed irrelevant dependencies

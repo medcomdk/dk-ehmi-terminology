@@ -1,15 +1,10 @@
 {
     "package-id": "dk.ehmi.terminology",
-    "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/terminology/1.0.0",
-    "status": "active",
+    "version": "1.0.1-draft",
+    "path": "http://medcomehmi.dk/ig/terminology/1.0.1-draft",
+    "status": "draft",
     "sequence": "Release 1.x.x",
     "mode": "milestone",
     "descmd": "@release-notes.md",
-    "desc": "Draft release",
-    "first" : true,
-    "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-ehmi-terminology",
-    "title": "EHMI Terminology",
-    "category": "Terminology",
-    "introduction": "Terminology for MedCom's Enhanced Healthcare Messaging Infrastructure (EHMI)"
+    "desc": "Removed irrelevant dependencies"
 }
