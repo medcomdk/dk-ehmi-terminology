@@ -26,12 +26,12 @@ CodeSystem: EerEndpointConnectionType
 Id: eer-endpoint-connection-type
 Title: "EHMI Endpoint Register (EER) - Connection Types CS"
 Description: "eer-endpoint-connection-types for the EER Messaging Infrastructure"
-* ^version  =  "1.0.0"
+* ^version  =  "1.1.0"
 * ^status  =  #active
-* ^date  =  "2025-02-01"
-* ^experimental = false
+* ^date  =  "2025-10-11"
 * ^caseSensitive = true
 * #EerMessagingEdelivery "EHMI messaging via eDelivery"
+* #EerMessagingEdeliveryFhir "EHMI messaging via eDelivery FHIR"
 * #vansMessaging "EHMI VANS messaging"
 * #hl7-fhir-msg "hl7-fhir-msg"
 * #hl7-fhir-rest "hl7-fhir-rest"
@@ -44,7 +44,6 @@ Description: "ValueSet containing codes for EER connectionTypes"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2025-02-01"
-* ^experimental = false
 * include codes from system eer-endpoint-connection-type
 
 CodeSystem: EerEndpointPayloadType
