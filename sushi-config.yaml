@@ -32,3 +32,4 @@ parameters:
   default-publisher: true
   pin-canonicals: pin-multiples
   excludettl: true
+  
