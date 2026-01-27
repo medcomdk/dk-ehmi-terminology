@@ -1,3 +1,16 @@
+CodeSystem: NHR_RootNamespace
+Id: nhr-rootnamespace
+Title: "EHMI Endpoint Register (EER) - MedCom Message Definition Uri CS"
+Description: "CodeSystem containing MedCom Message codes for message exchange in EHMI"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2025-01-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #urn:dk:healthcare:medcom:messaging:edifact	"edifact RootNamespace"
+* #urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd	"OIOXML RootNamespace"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition "FHIR RootNamespace"
+
 CodeSystem: EhmiMessageDefinitionUri
 Id: ehmi-message-definition-uri
 Title: "EHMI Endpoint Register (EER) - MedCom Message Definition Uri CS"
@@ -109,19 +122,12 @@ Description: "CodeSystem containing MedCom Message codes for message exchange in
 * #urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:meddis:xdis32:xd3234l	"XMLFødselsanmeldelse"
 * #urn:dk:healthcare:medcom:messaging:edifact:meddis:dis09:d0933l	"Kiropraktorepikrise"
 * #urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:xml:ggop:ggop100	"Genoptræningsplan (GGOP)"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0 "HospitalNotification 1.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0 "HospitalNotification 2.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0 "HospitalNotification 3.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0 "CareCommunication 1.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0 "CareCommunication 2.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.1 "CareCommunication 2.1"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0 "CareCommunication 3.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0 "HomeCareObservation 1.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.1 "HomeCareObservation 1.1"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0 "Acknowledgement 1.0"
-* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0 "Acknowledgement 2.0"
-* #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
-* #urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::hospitalnotification-message##urn:dk:medcom:fhir:hospitalnotification-message::3.0  "HospitalNotification 3.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::carecommunication-message##urn:dk:medcom:fhir:carecommunication-message::5.0  "CareCommunication 5.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::homecareobservation-message##urn:dk:medcom:fhir:homecareobservation-message::1.2  "HomeCareObservation 1.2"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::acknowledgement-message##urn:dk:medcom:fhir:acknowledgement-message::2.0 "Acknowledgement 2.0"
+* #urn:dk:healthcare:messaging:oasis:ebxml:schema:xsd::ehmisbdh-acknowledgement##urn:dk:ehmi:sbdh:ehmisbdh-acknowledgement::1.0 "ehmiSBDH Acknowledgement 1.0"
 
 
 ValueSet: EhmiMessageDefinitionUriVS
@@ -133,3 +139,4 @@ Description: "ValueSet containing codes for EHMI eer-message-definition-uri"
 * ^date  =  "2025-01-01"
 * ^experimental = false
 * include codes from system ehmi-message-definition-uri
+
