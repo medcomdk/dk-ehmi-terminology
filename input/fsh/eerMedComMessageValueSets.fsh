@@ -20,6 +20,7 @@ Description: "CodeSystem containing MedCom Message codes for message exchange in
 * ^date  =  "2025-01-01"
 * ^experimental = false
 * ^caseSensitive = true
+/*
 * #urn:dk:healthcare:medcom:messaging:edifact:medbin:bin02:b0210x	"Binær dokumenttransport til bilag for alle henvisningstyper"
 * #urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:medref:xref15:xh1530r	"XML Kommunehenvisning"
 * #urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:meddis:xdis15:xd1530l	"XML Kommuneafslutningsnotat"
@@ -125,6 +126,7 @@ Description: "CodeSystem containing MedCom Message codes for message exchange in
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0 "HospitalNotification 3.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::hospitalnotification-message##urn:dk:medcom:fhir:hospitalnotification-message::3.0  "HospitalNotification 3.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::carecommunication-message##urn:dk:medcom:fhir:carecommunication-message::5.0  "CareCommunication 5.0"
+*/
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::homecareobservation-message##urn:dk:medcom:fhir:homecareobservation-message::1.2  "HomeCareObservation 1.2"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::acknowledgement-message##urn:dk:medcom:fhir:acknowledgement-message::2.0 "Acknowledgement 2.0"
 * #urn:dk:healthcare:messaging:oasis:ebxml:schema:xsd::ehmisbdh-acknowledgement##urn:dk:ehmi:sbdh:ehmisbdh-acknowledgement::1.0 "ehmiSBDH Acknowledgement 1.0"
