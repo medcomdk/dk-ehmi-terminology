@@ -1,1 +1,1 @@
-Added a new EerMessagingEdeliveryFhir code
+Added the urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::homecareobservation-message##urn:dk:medcom:fhir:homecareobservation-message::1.1 code
